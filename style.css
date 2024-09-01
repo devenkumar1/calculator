@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+
+
+
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #212121;
+    text-align: center;
+}
+
+.calculator h2{
+    position: relative;
+    top: 1rem;
+}
+.calculator{
+   
+    background-color: #ffff;
+    min-height: 30rem;
+   width: 40%;
+   position: relative;
+   left: 30vw;
+   top: 5rem;
+   border: 5px solid rgba(102, 102, 255,0.8);
+   
+}
+
+#interface{
+width:80%;
+height: 7vh;
+border: 0.5px solid black;
+position: relative;
+top: 2rem;
+cursor: pointer;
+color: white;
+font-size: 2rem;
+background-color: rgba(94, 92, 92,0.7);
+
+}
+.keybuttons{
+    width: 80%;
+    border: 2px solid grey;
+    position: relative;
+    top: 2.4rem;
+    left: 10%;
+    display: flex;
+    justify-content: space-around;
+    min-height: 68%;
+    border-radius: 2px;
+  
+    
+}
+
+
+.keybuttons table{
+    width: 100%;
+}
+
+.keys{
+ width: 80%;
+ height: 3rem;
+ border-radius: 5px;
+ text-decoration: none;
+ cursor: pointer;       
+}
+
+.keys:hover{
+    border: 1px solid rgba(71, 71, 255,0.8);
+    transition: all 1s ease-in-out;
+
+}
+
+.spclkey{
+    width: 80%;
+ height: 7rem;
+ border-radius: 5px;
+ text-decoration: none;
+ cursor: pointer; 
+ background-color: rgba(255, 72, 72,0.9);
+}
+
+table{
+    padding: 2px;
+    
+}
+
+table tr{
+    margin-top: 2px;
+}
+
+.ckey{
+    background-color: lightskyblue;
+
+}
+
+
